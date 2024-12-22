@@ -1,15 +1,19 @@
 .root {
     margin: 0 auto;
-    padding: 2.3em 3em 2em;
     text-align: center;
     display: flex;
     flex-direction: column;
-    border: 2px solid var(--secondary);
-    border-radius: 30px;
-    width: 100vw;
+    border: 0px solid #888888;
     min-height: 100vh;
     justify-content: center;
-    background-color: var(--primary);
+    background-color: #e7ffeb;
+    padding-right: 3em;
+    padding-bottom: 2em;
+    padding-left: 3em;
+    padding-top: 3em;
+    width: 100vw;
+    flex-wrap: nowrap;
+    border-radius: 20px;
 }
 
 .title {

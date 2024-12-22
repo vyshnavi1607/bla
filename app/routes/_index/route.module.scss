@@ -1,0 +1,233 @@
+.img1 {
+    text-align: center;
+    position: sticky;
+    align-self: center;
+    max-width: 70%;
+}
+.span1 {
+    font-size: 33px;
+    font-weight: 600;
+    font-family: Verdana, sans-serif;
+}
+.button1 {
+    align-self: start;
+    font-style: italic;
+    font-variant: oldstyle-nums;
+    background-color: #000000;
+    background-color: #540c0c;
+    background-color: #520c0c;
+    background-color: #4e0c0c;
+    background-color: #480d0d;
+    background-color: #480e0e;
+    background-color: #3f0f0f;
+    background-color: #3d1b1b;
+    background-color: #392020;
+    background-color: #312020;
+    background-color: #3d1d1d;
+    background-color: #3d1d1d;
+    background-color: #3d1d1d;
+    background-color: #2f1f1f;
+    background-color: #2f2020;
+    background-color: #352a2a;
+    background-color: #4c3e3e;
+    background-color: #504242;
+    background-color: #9f8f8f;
+    background-color: #d5bfbf;
+    background-color: #d7c1c1;
+    background-color: #f6e1e1;
+    background-color: #f8dfdf;
+    background-color: #2f1e1e;
+    background-color: #241313;
+    background-color: #261313;
+    background-color: #2d1616;
+    background-color: #a19191;
+    background-color: #b3a1a1;
+    background-color: #ddc7c7;
+    background-color: #e5cfcf;
+    background-color: #2f1717;
+    background-color: #371c1c;
+    background-color: #4a2727;
+    background-color: #583030;
+    background-color: #3b1e1e;
+    background-color: #5c3232;
+    background-color: #905151;
+    background-color: #905151;
+    background-color: #925252;
+    background-color: #905757;
+    background-color: #713d3d;
+    background-color: #623131;
+    background-color: #562828;
+    background-color: #795353;
+    background-color: #8c5353;
+    background-color: #6d3939;
+    background-color: #542727;
+    background-color: #482222;
+    background-color: #482424;
+    background-color: #482626;
+    background-color: #482828;
+    background-color: #482a2a;
+    background-color: #583b3b;
+    background-color: #5a3c3c;
+    background-color: #624242;
+    background-color: #7b5454;
+    background-color: #8a6161;
+    background-color: #906565;
+    background-color: #946a6a;
+    background-color: #966c6c;
+    background-color: #a77c7c;
+    background-color: #ad9292;
+    background-color: #a97f7f;
+    background-color: #ad8f8f;
+    background-color: #ad9090;
+    background-color: #af9595;
+    background-color: #b79c9c;
+    background-color: #2f6169;
+    background-color: #34656d;
+    background-color: #386971;
+    background-color: #42737b;
+    background-color: #487d86;
+    background-color: #ba9d9d;
+    background-color: #bc9f9f;
+    background-color: #30636b;
+    background-color: #30636b;
+    background-color: #396971;
+    background-color: #497e88;
+    background-color: #4b808a;
+    background-color: #4d848e;
+    background-color: #55929d;
+    margin: 12px;
+    border-radius: 12px;
+    border: 0px solid black;
+    font-size: 26px;
+    font-weight: 700;
+}
+.button2 {
+    align-self: center;
+    position: static;
+}
+.header1 {
+    font-family: Times New Roman, serif;
+    font-size: 60px;
+    position: absolute;
+    margin: 10px;
+    border: 11px solid black;
+    border-radius: 12px;
+    cursor: progress;
+    float: 1222;
+    left: 150px;
+    top: 70px;
+}
+.li1 {
+    text-align: start;
+}
+.form1 {
+    position: absolute;
+    top: 100px;
+    align-self: end;
+    max-width: 12222px;
+    font-size: 20px;
+    bottom: 250px;
+    left: 700px;
+    right: 2px;
+}
+.cardCollection {
+    padding: 48px;
+    background-color: white;
+}
+
+.cardCollectionHeader {
+    font-size: 68px;
+    font-weight: 700;
+    text-align: center;
+    text-wrap: pretty;
+    margin-bottom: 40px;
+
+    @media (width <= 768px) {
+        font-size: 60px;
+    }
+    @media (width <= 480px) {
+        font-size: 36px;
+    }
+}
+
+.cardCollectionItems {
+    display: flex;
+    gap: 28px;
+
+    @media (width <= 768px) {
+        flex-direction: column;
+    }
+}
+
+.cardCollectionItem {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+
+    @media (width<= 480px) {
+        font-size: 32px;
+    }
+}
+
+.cardCollectionContent {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.cardCollectionTitle {
+    font-size: 40px;
+
+    @media (width<= 768px) {
+        font-size: 40px;
+    }
+}
+
+.cardCollectionDescription {
+    font-size: 18px;
+    text-wrap: pretty;
+    margin-bottom: 12px;
+
+    @media (width<= 768px) {
+        font-size: 24px;
+    }
+}
+
+.cardCollectionButton {
+    padding: 12px 24px;
+    background-color: black;
+    border-radius: 32px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+    align-self: flex-start;
+    color: white;
+}
+
+.cardCollectionButton:hover {
+    background-color: #848484;
+}
+
+.cardCollectionItem:hover {
+    box-shadow: 0 6px 30px rgba(33, 33, 33, 0.2);
+}
+.label1 {
+    font-size: 30px;
+    font-family: Verdana, sans-serif;
+}
+.label2 {
+    font-size: 30px;
+    font-family: Verdana, sans-serif;
+}
+.input1 {
+    font-size: 30px;
+    font-family: Times New Roman, serif;
+    font-weight: 700;
+}
+.nav1 {
+    font-size: 25px;
+    position: absolute;
+    top: 1000px;
+    left: 170px;
+}
